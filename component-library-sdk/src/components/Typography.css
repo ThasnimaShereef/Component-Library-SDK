@@ -1,0 +1,29 @@
+.typography {
+  font-family: "Inconsolata", sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.typography-h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.typography-h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: white;
+}
+
+.typography-body {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ccc;
+}
+
+.typography-caption {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #888;
+}

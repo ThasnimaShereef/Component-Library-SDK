@@ -1,0 +1,51 @@
+.avatar-upload {
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  font-family: "Inconsolata", sans-serif;
+  user-select: none;
+  transition: background-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar-upload:hover {
+  background-color: rgba(249, 115, 114, 0.1);
+}
+
+.avatar-upload input[type="file"] {
+  display: none;
+}
+
+.avatar-upload-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.avatar-upload-buttons {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.change-button,
+.remove-button {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-family: "Inconsolata", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.change-button:hover,
+.remove-button:hover {
+  background-color: #f97372;
+  color: white;
+}

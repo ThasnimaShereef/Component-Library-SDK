@@ -1,0 +1,38 @@
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.input-label {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: white; 
+  font-size: 0.875rem;
+}
+
+.input-element {
+  padding: 0.5rem 1rem;
+  border: 1px solid #444;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: white;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.input-element::placeholder {
+  color: #888;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.input-element:focus {
+  outline: none;
+  border-color: #f97372;
+}
+
+.input-element:hover {
+  background-color: rgba(249, 115, 114, 0.1);
+}
