@@ -5,6 +5,13 @@ This project contains a simple React component library/SDK built with TypeScript
 
 ## Live Link : https://thasnima-shereef-wasserstoff-front.vercel.app/
 
+---
+
+## 📸 Preview
+
+![Website Preview](./component.png) <!-- Optional: Add a preview GIF or another screenshot -->
+
+---
 ## Components
 - Button
 - InputField
